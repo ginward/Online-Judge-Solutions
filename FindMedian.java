@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class FindMedian {
 
-    public static void main(String[] args) throws HeapLengthOutOfBound, InterruptedException {
+    public static void main(String[] args) throws HeapLengthOutOfBound {
 
         Scanner scanner = new Scanner(System.in);
         String str;
@@ -26,14 +26,7 @@ public class FindMedian {
 
     }
     //the class that actually solves the problem and prints it
-    public static void findMedian(int []input, int end) throws HeapLengthOutOfBound, InterruptedException {
-        /*
-        MaxHeap heap = new MaxHeap();
-        for(int i=0;i<end;i++) {
-            heap.heap_insert_key(input[i]);
-        }
-        System.out.println(checkHeap(heap));
-        */
+    public static void findMedian(int []input, int end) throws HeapLengthOutOfBound {
         int size= end;
         MaxHeap maxH = new MaxHeap();
         MinHeap minH = new MinHeap();
@@ -74,7 +67,7 @@ public class FindMedian {
         }
     }
 
-    private static void printMedian(int end, int[] input,MaxHeap maxH, MinHeap minH) throws InterruptedException {
+    private static void printMedian(int end, int[] input,MaxHeap maxH, MinHeap minH) {
 
         StringBuilder sb = new StringBuilder();
         final String NEW_LINE = System.getProperty("line.separator");
