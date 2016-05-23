@@ -2,12 +2,9 @@ import java.util.LinkedList;
 
 /**
  * Created by jinhuawang on 5/23/16.
- * Solution to 
+ * Solution to https://leetcode.com/problems/counting-bits/
  */
 public class CountBits {
-    public static void main(String[] args){
-        countBits(0);
-    }
     public static int[] countBits(int num) {
         //the array that holds the number
         int []arr= new int[num+1];
