@@ -2,7 +2,7 @@
 
 This is the set of solutions I wrote for online judges. 
 
-Codes is released under the MIT License. 
+Code is released under the MIT License. 
 
 The MIT License (MIT)
 Copyright (c) <2016> Jinhua Wang
