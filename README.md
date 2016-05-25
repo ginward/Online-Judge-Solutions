@@ -1,4 +1,4 @@
-# PracticeQuestionSolutions
+# Online-Judge-Solutions
 
 This is the set of solutions I wrote for online judges. 
 
