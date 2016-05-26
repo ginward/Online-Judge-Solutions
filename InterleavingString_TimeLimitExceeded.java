@@ -1,7 +1,7 @@
 /**
  * Created by jinhuawang on 5/25/16.
  * Solution to https://leetcode.com/problems/interleaving-string/
- * This solution will exceed the time limit, but it demonstrates the idea or recursion
+ * This solution will exceed the time limit, but it demonstrates the idea of recursion
  * Algorithm is adopted from Peiyi Li
  */
 public class InterleavingString_TimeLimitExceeded {
