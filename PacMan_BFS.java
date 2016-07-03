@@ -39,10 +39,10 @@ public class PacMan_BFS {
             }
 
             //solve the game
-            DFS_Search(map, pac_x, pac_y, food_x, food_y, dimension_x, dimension_y);
+            BFS_Search(map, pac_x, pac_y, food_x, food_y, dimension_x, dimension_y);
         }
     }
-    public static void DFS_Search(char[][]map, int pac_x, int pac_y, int food_x, int food_y, int dimension_x, int dimension_y){
+    public static void BFS_Search(char[][]map, int pac_x, int pac_y, int food_x, int food_y, int dimension_x, int dimension_y){
         boolean[][] visited=new boolean[dimension_x][dimension_y];
         boolean[][] added=new boolean[dimension_x][dimension_y];
         Vertex_PAC[][]parent = new Vertex_PAC[dimension_x][dimension_y];
